@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Maquetado HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        header, footer {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        main {
+            display: flex;
+        }
+        article {
+            flex: 2;
+            margin-right: 20px;
+        }
+        aside {
+            flex: 1;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mi Página Web</h1>
+        <p>Bienvenido a mi página web de ejemplo</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <h2>Artículo Principal</h2>
+            <p>Este es el contenido principal de la página. Aquí puedes escribir sobre el tema que desees.</p>
+            
+            <section>
+                <h3>Sección 1</h3>
+                <p>Contenido de la sección 1. Puedes agregar más detalles aquí.</p>
+                <figure>
+                    <img src="https://via.placeholder.com/150" alt="Imagen de ejemplo">
+                    <figcaption>Una imagen de ejemplo con una leyenda</figcaption>
+                </figure>
+            </section>
+
+            <section>
+                <h3>Sección 2</h3>
+                <p>Contenido de la sección 2. Más información sobre otro tema.</p>
+                <blockquote>Cita de ejemplo dentro del contenido.</blockquote>
+            </section>
+        </article>
+
+        <aside>
+            <h2>Enlaces Útiles</h2>
+            <ul>
+                <li><a href="#">Enlace 1</a></li>
+                <li><a href="#">Enlace 2</a></li>
+                <li><a href="#">Enlace 3</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mi Página Web. Todos los derechos reservados.</p>
+        <address>Contacto: <a href="mailto:email@example.com">email@example.com</a></address>
+    </footer>
+
+</body>
+</html>
